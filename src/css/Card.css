@@ -1,0 +1,59 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 30px;
+    max-width: 500px;
+    box-shadow: 0 0 10px #3ca918;
+    backdrop-filter: blur(10px); 
+    transform: skew(-5deg, -5deg);
+  }
+  
+  .card-content {
+    margin-top: 10px;
+  }
+  
+  .card-content .title {
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  
+  .card-content .description {
+    font-size: 0.9em;
+    color: #666;
+    color: #fff;
+    font-family: 'Hammersmith One';
+    letter-spacing: 0.1vw;
+    line-height: 2vw;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+
+.title {
+    
+    letter-spacing: 0.1vw;
+    line-height: 4vw;
+    width: 40vw;
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+  }
+  .card-content .title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-content .description {
+    padding-top: 20px;
+    line-height: 20px;
+    font-size: .7rem;
+  }
+}

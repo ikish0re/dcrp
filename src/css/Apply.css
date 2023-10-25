@@ -1,0 +1,165 @@
+.applyDiv {
+    position: relative;
+    width: 400px;
+    height: 600px;
+}
+
+.applyDiv .overlay {
+    content: "";
+    position: absolute;
+    backdrop-filter: blur(1px);
+	background: rgba(60, 169, 24, 0.2);
+	margin-left: 130%;
+	z-index: -1;
+}
+
+.applyDiv .divForm {
+    display: flex;
+    flex-direction: column;
+	color: #fff;
+	border: 1px solid #00FF00;
+	box-shadow: 0 0 5px #00FFFF ;
+	width: 400px;
+    height: 600px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 130%;
+}
+
+input, #charBackStory{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 0.15em solid #00FF00;
+	outline: none;
+}
+
+.divForm h2::after {
+    content: "";
+    width: 40%;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #00FF00;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 10px; 
+}
+
+.divForm table .label::after {
+    content: "";
+    width: 20%;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #00FF00;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 10px; 
+}
+
+.overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(0);
+    transition: backdrop-filter 0.5s ease;
+}
+
+.submitBtn  {
+	appearance: none;
+	border: .2em solid #00FF00;
+	padding: .85em 1.5em;
+	color: #00FF00;
+	border-radius: 2em;
+	transition: .3s;
+	font-weight: 600;
+	&:hover, &:focus, &:active {
+		background: #00FF00;
+		color: #fff;
+		font-weight: 600;
+	}
+}
+
+.divForm input[type=checkbox] {
+	appearance: none;
+  background-color: #fff;
+  margin: 0;
+	font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid #00FF00;
+  border-radius: 20px;
+  transform: translateY(-0.075em);
+	display: grid;
+  place-content: center;
+	&::before {
+		content: "";
+		width: 0.65em;
+		height: 0.65em;
+		transform: scale(0);
+		transition: 120ms transform ease-in-out;
+		box-shadow: inset 1em 1em #00FF00;
+		background-color: CanvasText;
+		clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+		transform-origin: left top;
+	}
+	&:checked::before {
+		transform: scale(1);
+	}
+}
+
+.divForm table {
+    width: 100%;
+    height: 400px;
+}
+
+
+input[type='textarea'], input[type='text'], 
+input[type='number'], input[type='email'] {
+    width: 200px;
+}
+
+#charBackStory {
+    height: 200px;
+    width: 200px;
+    resize: none;
+}
+
+td .errors {
+    font-size: 14px;
+    color: rgb(255, 102, 0);
+    font-weight: 600;
+}
+
+.errorCard {
+    position: absolute;
+    min-width: 250px;
+    width: max-content;
+    right: -240%;
+    animation: homePicEffect 2s;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 20px;
+    min-height: 30px;
+    max-height: fit-content;
+    padding: 20px 0 20px 50px;
+    border: 1px solid #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.nap {
+    position: absolute;
+    right: -350%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nap {
+    max-width: 1000px;
+    height: auto;
+    border-radius: 50%;
+}

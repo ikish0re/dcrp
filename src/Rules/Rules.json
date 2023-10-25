@@ -1,0 +1,24 @@
+{
+    "GeneralRules": {
+        "title": "some general rule title",
+        "rule": "some general rule"
+    },
+    "Rules": [
+        {
+            "title": "Toxicity and Bullying",
+            "rule": "Toxicity is defined as bringing unwanted attitude into the community. There is a difference between voicing his/her opinion, and forcing his/her opinion on other people. Do not direct your anger/frustration/aggression towards another player."
+        },
+        {
+            "title": "Derogatory Remarks: (Disrespectful Attitude)",
+            "rule": "Negative/Derogatory remarks about race, religion, gender, sexual preference, sexual orientation, gender identity, etc. is strictly prohibited. This includes in and out of RP."
+        },
+        {
+            "title": "Vengeance / Impure RP",
+            "rule": "Building vengeance on other players just because your RP didn’t end in your favour will not be tolerated. Such immature characters are not allowed. Try to take RP as RP rather than getting offended personally and nurturing hatred among other Players"
+        },
+        {
+            "title": "Exploiting",
+            "rule": "No external apps, system supporting apps, macros, hacking or cheating is allowed. This includes abusing in-game bugs, glitches etc. If you find any bugs, kindly report them to the server staff or administrators through discord if they are exploited either immediate server action or a permanent ban will be initiated."
+        }
+    ]
+}
