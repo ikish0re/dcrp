@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c17c7a9a.css",
+    "main.js": "/static/js/main.bf48f6fb.js",
+    "static/media/gtaPink.webp": "/static/media/gtaPink.f45c735a000c3dcaf3b4.webp",
+    "static/media/pic1.png": "/static/media/pic1.5095bd2ff6c62dcbd1a1.png",
+    "index.html": "/index.html",
+    "main.c17c7a9a.css.map": "/static/css/main.c17c7a9a.css.map",
+    "main.bf48f6fb.js.map": "/static/js/main.bf48f6fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c17c7a9a.css",
+    "static/js/main.bf48f6fb.js"
+  ]
+}

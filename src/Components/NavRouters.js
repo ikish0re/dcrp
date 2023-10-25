@@ -9,7 +9,7 @@ const NavRouters = () => {
   //const navigate = useNavigate()
   return (
     <Routes>
-        <Route index path='/' element={<Home />}></Route>
+        <Route index path='/dcrp' element={<Home />}></Route>
         <Route path='/Apply' element={<Apply />} />
         <Route path='/Rules' element={<Rules />}></Route>
         <Route path='/ContactUs' element={<ContactUs />}></Route>
