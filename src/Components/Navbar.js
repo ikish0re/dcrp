@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
       </div>
       <ul id='ulNavbar' className={showLinks ? 'active' : 'inactive'}>
-            <li className='active'><Link to='/' onClick={loadingEffect && toggleLinks} style={currentPage === 'Home' ? { color: '#3ca918' } : null}>Home</Link></li>
+            <li className='active'><Link to='/dcrp' onClick={loadingEffect && toggleLinks} style={currentPage === 'Home' ? { color: '#3ca918' } : null}>Home</Link></li>
             <li className='active'><Link to='/Apply'  style={currentPage === 'Apply' ? { color: '#3ca918' } : null}>Apply Here</Link></li>
             <li className='active'><Link to='/ContactUs' style={currentPage === 'ContactUs' ? { color: '#3ca918' } : null}>Contact Us</Link></li>
       </ul>
