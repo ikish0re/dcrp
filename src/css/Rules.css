@@ -1,0 +1,185 @@
+.book {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 40px 40%;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+  }
+
+  .discordIcon {
+    position: absolute;
+    left: 70px;
+    top: 150px;
+  }
+
+  .book p {
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .book .p1-h3 {
+    padding-top: 200px;
+  }
+  .rulesPic {
+    position: absolute;
+    left: 200px;
+    height: auto;
+    width: 400px;
+  }
+  .front {
+    box-shadow: 0 0 10px #000000;
+  }
+  /* page text */
+  .book label {
+    font-weight: 600;
+  }
+  .front h3 {
+    text-align: center;
+  }
+  .front h2 {
+    text-align: center;
+    color: #fff;
+  }
+  .gRules {
+    text-align: center;
+  }
+  
+  .gRules h2 {
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+  .tbRules h2{
+    text-align: center;
+    padding: 20px 0 50px 0;
+  }
+  .tbRules p li {
+    text-align: left;
+  }
+  .discord h2{
+    text-align: center;
+    padding: 20px 0 50px 0;
+  }
+  .p1-h2 {
+    padding-top: 60px;
+    color: #fff;
+  }
+  .p1-h3 {
+    padding-top: 230px;
+    color: #fff;
+  }
+  #cover {
+    position: absolute;
+    padding: 50px auto;
+    width: 100%;
+    height: 500px;
+    margin-right: 100px;
+  }
+  .flip-book {
+    width: 350px;
+    height: 500px;
+    
+    position: relative;
+    perspective: 1500px;
+  }
+  .flip {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: .5s;
+    color: #fff;;
+  }
+  .book .rulesLogo {
+    position: absolute;
+    z-index: 5;
+    height: 200px;
+    left: 22%;
+    width: auto;
+  }
+  .front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #443d97;
+    border: 5px solid #ffffff;
+    box-sizing: border-box; 
+    padding: 0 13px;
+  }
+  .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    background-color: #007ab7;
+  }
+  .next-btn {
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    cursor: pointer;
+    color: #fff;
+  }
+  .back-btn {
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    cursor: pointer;
+    color: #fff;
+  }
+  #p1 {
+    z-index: 7;
+  }
+  #p2 {
+    z-index: 6;
+  }
+  #p3 {
+    z-index: 5;
+  }
+  #p4 {
+    z-index: 4;
+  }
+  #p5 {
+    z-index: 3;
+  }
+  #p6 {
+    z-index: 2;
+  }
+  #p {
+    z-index: 1;
+  }
+  #c1:checked ~ .flip-book #p1 {
+    transform: rotateY(-180deg);
+    z-index: 1;
+  }
+  #c2:checked ~ .flip-book #p2 {
+    transform: rotateY(-180deg);
+    z-index: 2;
+  }
+  #c3:checked ~ .flip-book #p3 {
+    transform: rotateY(-180deg);
+    z-index: 3;
+  }
+  #c4:checked ~ .flip-book #p4 {
+    transform: rotateY(-180deg);
+    z-index: 4;
+  }
+  #c5:checked ~ .flip-book #p5 {
+    transform: rotateY(-180deg);
+    z-index: 5;
+  }
+  #c6:checked ~ .flip-book #p6 {
+    transform: rotateY(-180deg);
+    z-index: 6;
+  }

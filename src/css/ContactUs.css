@@ -1,0 +1,173 @@
+.contactUsDiv {
+    position: relative;
+    width: auto;
+    height: 79vh;
+}
+.icons {
+    position: absolute;
+    margin: 35px 0;
+}
+.contactIcons {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    margin:0;
+    padding:0;
+  }
+  
+  .contactIcons .contactIconsList {
+    list-style:none;
+    margin:0 5px;
+  }
+  
+  .contactIcons .contactIconsList a .fa {
+    font-size: 40px;
+    color: #262626;
+    Line-height:80px;
+    transition: .5s;
+    padding-right: 14px;
+  }
+  
+  .contactIcons .contactIconsList a span {
+    padding:0;
+    margin:0;
+    position:absolute;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+    cursor: none;
+  }
+  
+  .contactIcons .contactIconsList a {
+    text-decoration: none;
+    display:absolute;
+    display:block;
+    width:210px;
+    height:80px;
+    background: #fff;
+    text-align:left;
+    padding-left: 50px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+    cursor: none;
+  }
+  .contactIcons .contactIconsList a:before {
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+    cursor: none;
+  }
+  .contactIcons .contactIconsList a:after {
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+    cursor: none;
+  }
+  
+  .contactIcons .contactIconsList a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+    cursor: none;
+  }
+  
+  .contactIcons .contactIconsList:hover .fa {
+    color:#fff;
+    cursor: none;
+  }
+  
+  .contactIcons .contactIconsList:hover span {
+    color:#ffffff;
+    cursor: none;
+  }
+
+  .contactIcons .contactIconsList:hover:nth-child(1) a{
+    background: #7289da;
+    cursor: none;
+  }
+  .contactIcons .contactIconsList:hover:nth-child(1) a:before{
+    background: #7289da;
+    cursor: none;
+  }
+  .contactIcons .contactIconsList:hover:nth-child(1) a:after{
+    background: #7289da;
+    cursor: none;
+  }
+
+  .contactIcons .contactIconsList:hover:nth-child(2) a{
+    background: #dd4b39;
+    cursor: none;
+  }
+  .contactIcons .contactIconsList:hover:nth-child(2) a:before{
+    background: #b33a2b;
+    cursor: none;
+  }
+  .contactIcons .contactIconsList:hover:nth-child(2) a:after{
+    background: #e66a5a;
+    cursor: none;
+  }
+  
+  .contactIcons .contactIconsList:hover:nth-child(3) a{
+    background: #e4405f;
+    cursor: none;
+  }
+  .contactIcons .contactIconsList:hover:nth-child(3) a:before{
+    background: #d81c3f;
+    cursor: none;
+  }
+  .contactIcons .contactIconsList:hover:nth-child(3) a:after{
+    background: #e46880;
+    cursor: none;
+  }
+
+  @media (max-width: 768px) {
+  .contactUsDiv {
+    box-shadow: 0 0 10px white;
+    height: 400px;
+    width: 300px;
+    left: 50px;
+    top: 100px;
+  }
+  .contactUsDiv .contactIcons {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    list-style: none;
+    margin: 0 5px 10px; 
+    cursor: none;
+  }
+  .contactIcons .contactIconsList a {
+    width: 150px; 
+    height: 60px;
+    padding: 5px; 
+    cursor: none;
+  }
+  .contactIcons .contactIconsList a .fa {
+    font-size: 30px;
+    Line-height: 60px;
+    padding-right: 8px; 
+    cursor: none;
+  }
+  .contactIcons .contactIconsList a span {
+    font-size: 16px;
+    font-weight: 600;
+    top: 20px;
+    letter-spacing: 2px;
+    cursor: none;
+  }
+  
+}

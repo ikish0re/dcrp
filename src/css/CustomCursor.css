@@ -1,0 +1,12 @@
+.custom-cursor {
+    position: fixed;
+    pointer-events: none;
+    z-index: 100000000;
+  }
+  
+  .custom-cursor img {
+    width: 40px;
+    height: auto;
+    z-index: 100000000;
+  }
+  
