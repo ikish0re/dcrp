@@ -1,6 +1,6 @@
 {
-  "homepage":"https://ikish0re.github.io/dcrp",
   "name": "web-app",
+  "homepage": "https://democraticroleplay.github.io/dcrp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,6 +46,9 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.33.2",
     "gh-pages": "^6.0.0"
   }
 }
