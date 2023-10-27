@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dcrp/static/css/main.0f104487.css",
-    "main.js": "/dcrp/static/js/main.953801b4.js",
+    "main.js": "/dcrp/static/js/main.cd0e7816.js",
     "static/media/gtaPink.webp": "/dcrp/static/media/gtaPink.f45c735a000c3dcaf3b4.webp",
     "static/media/pic1.png": "/dcrp/static/media/pic1.5095bd2ff6c62dcbd1a1.png",
     "index.html": "/dcrp/index.html",
     "main.0f104487.css.map": "/dcrp/static/css/main.0f104487.css.map",
-    "main.953801b4.js.map": "/dcrp/static/js/main.953801b4.js.map"
+    "main.cd0e7816.js.map": "/dcrp/static/js/main.cd0e7816.js.map"
   },
   "entrypoints": [
     "static/css/main.0f104487.css",
-    "static/js/main.953801b4.js"
+    "static/js/main.cd0e7816.js"
   ]
 }
